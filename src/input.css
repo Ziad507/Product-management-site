@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inpt {
+  @apply w-full px-4 py-2 rounded-lg bg-[#1F1F1F] outline-none placeholder:text-[#757575] text-white;
+}
+h1 {
+  @apply text-[#FFFFFF];
+}
+h3 {
+  @apply text-[#B0B0B0] font-semibold ml-2;
+}
+.main-content {
+  @apply px-4 py-2 text-white text-base font-bold bg-[#1F1F1F] uppercase;
+}
+.sub-content {
+  @apply ml-4 px-4 py-2 text-white text-base bg-[#383838] first-letter:uppercase;
+}
+#tbody {
+  @apply text-center;
+}
+.delete-all {
+  @apply w-full rounded-full bg-gray-800 my-2 py-3 text-center text-white font-semibold text-lg;
+}
